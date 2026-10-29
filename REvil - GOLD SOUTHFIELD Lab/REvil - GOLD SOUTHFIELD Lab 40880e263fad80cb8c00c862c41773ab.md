@@ -72,7 +72,7 @@ We have already identified the executable responsible for dropping the ransom no
 
 ### Q4) Now that you've pinpointed the ransomware's executable location, let's dig deeper. It's a common tactic for ransomware to disrupt system recovery methods. Can you identify the command that was used for this purpose?
 
-Ransomware mostly deletes shadow copies in order to inhibit system recover. We can list the child processes of the ransomware executables by hunting Sysmon event id 1 process creation with a parent process.
+Ransomware mostly deletes shadow copies in order to inhibit system recover. We can list the child processes of the ransomware process by hunting Sysmon event id 1 process creation with a parent process.
 
 ```jsx
 index="revil" source="winlog.ndjson" winlog.event_id=1 winlog.event_data.ParentImage="C:\\Users\\Administrator\\Downloads\\facebook assistant.exe"
