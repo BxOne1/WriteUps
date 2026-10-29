@@ -1,5 +1,7 @@
 # REvil - GOLD SOUTHFIELD Lab
 
+![revil-gold-southfield.svg](revil-gold-southfield.svg)
+
 ## Introduction
 
 **REvil - GOLD SOUTHFIELD Lab** is a Threat hunting lab on **[CyberDefenders](https://cyberdefenders.org/blueteam-ctf-challenges/revil-gold-southfield/).** The company users started reporting ransom notes and background change on their workstations, a pattern that suggest a ransomware attack. 
